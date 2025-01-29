@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#userInpTable{
+    border: 10px solid green;
+    /* width: max-content; */
+    width: 40%;
+    border-radius: 25px;
+    height: 100px;
+}
+
+#userInpTable input{
+    font-size: x-large;
+}
+
+form{
+    border: 10px solid green;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    /* height: 300px; */
+}
+
+#userInpTable td{
+    /* border: 10px solid green; */
+    padding: 2%;
+    font-size: x-large;
+    width: 40%;
+}
+
+
+#userInpTable td>#add{
+    font-size: x-large;
+    background-color: greenyellow;
+    padding: 3%;
+    width: 100%;
+}
+
+
+
+/* Display table styling */
+
+#dispTable{
+    width: 50%;
+    font-size: x-large;
+}
+
+
+#editbutton{
+    font-size: x-large;
+    background-color: blue;
+    height: auto;
+    width: 100%;
+}
+
+#deletebutton{
+    font-size: x-large;
+    background-color: red;
+    height: auto;
+    width: 100%;
+}
